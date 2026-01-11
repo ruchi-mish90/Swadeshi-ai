@@ -1,0 +1,25 @@
+{
+  "database_comparison": [
+    {
+      "name": "Firebase",
+      "speed_of_setup": 5,
+      "relational_power": 2,
+      "cost_at_scale": 3,
+      "tradeoff_note": "You trade relational complexity for rapid deployment."
+    },
+    {
+      "name": "Supabase (PostgreSQL)",
+      "speed_of_setup": 3,
+      "relational_power": 5,
+      "cost_at_scale": 4,
+      "tradeoff_note": "You trade a slightly steeper learning curve for long-term data reliability."
+    },
+    {
+      "name": "PlanetScale (MySQL)",
+      "speed_of_setup": 4,
+      "relational_power": 4,
+      "cost_at_scale": 5,
+      "tradeoff_note": "Balances speed and reliability but may incur higher costs."
+    }
+  ]
+}
